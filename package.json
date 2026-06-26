@@ -1,0 +1,16 @@
+{
+  "name": "queuestorm-warmup-mock",
+  "version": "1.0.0",
+  "description": "QueueStorm Warmup Mock Preliminary - CRM ticket triage service",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test:samples": "node test/run-samples.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "zod": "^3.23.8"
+  }
+}
